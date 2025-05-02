@@ -1,0 +1,8 @@
+.catalog-page .col-md-3 {
+    float: right;
+}
+
+.catalog-page .col-md-9 {
+    width: 75%;
+    float: left;
+}

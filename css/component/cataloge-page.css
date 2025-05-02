@@ -1,0 +1,187 @@
+
+.catalog-page{
+    padding: 70px 0;
+}
+.catalog-page .widget-title {
+    font-family: Playfair Display, sans-serif;
+    text-transform: capitalize;
+    margin: 0 0 40px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.catalog-page .widget-title::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #62d56d;
+    bottom: -20px;
+    left: 0;
+    margin: auto;
+}
+
+.catalog-page a{
+    text-decoration: none;
+    color: #62d56d;
+}
+.catalog-page ul {
+    padding-left: 0px;
+}
+
+.catalog-page li a{
+    line-height: 24px;
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    color: #000;
+    display: block;
+    font-size: 10px;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    transition: all 0.3s;
+}
+
+.catalog-page li:hover {
+
+    color: #62d56d;
+}
+
+.sidebar .widget-category .widget-content>ul>li>a:before {
+    content: "\f10c";
+    font-family: FontAwesome;
+    font-size: 8px;
+    left: 8.5%;
+    position: absolute;
+
+}
+
+.sidebar .widget .widget-content .li-color .color.pink {
+    background-color: #f43c7e;
+}
+
+.sidebar .widget .widget-content .li-color .color.blue {
+    background-color: blue;
+}
+
+.sidebar .widget .widget-content .li-color .color.black {
+    background-color: black;
+}
+
+.sidebar .widget .widget-content .li-color .color {
+
+    border-radius: 50%;
+    display: inline-block !important;
+    margin-right: 10px;
+    margin-top: 0;
+    width: 14px;
+    height: 14px;
+}
+
+.sidebar .widget .filter-custom.size .widget-content li a {
+    padding: 0 10px;
+    width: auto;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #eee;
+    
+}
+
+.sidebar .image-sale .picture {
+    padding: 10px;
+}
+
+.style-list .product-container .product-image {
+    float: left;
+    margin-right: 15px;
+    border: 1px solid #eee;
+    width: 40%;
+    display: block;
+}
+
+
+
+.style-list .product-container .product-meta .product-name {
+    font-size: 14px;
+    font-family: Playfair Display, sans-serif;
+    color: #000;
+    transition: all 0.3s;
+}
+
+.style-list .product-container .product-meta .product-name:hover {
+    color: #62d56d;
+}
+.style-list .product-container .product-meta .price-box {
+    color: #62d56d;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+}
+
+.catalog-page .col-md-3 {
+    float: left;
+    padding-left: 20px;
+}
+
+.catalog-page .col-md-9 {
+    width: 75%;
+    float: right;
+}
+
+.banner-collection .images {
+    position: relative;
+}
+
+.banner-collection .title-breadcrums {
+    position: absolute;
+    right: 55%;
+    top: 55%;
+    font-size: 30px;
+    font-family: Playfair Display, sans-serif;
+    font-weight: 700;
+    color: #eee;
+}
+
+
+
+.display-toolbar.grid__collection .toolbar {
+    border: 1px solid #f0f0f0;
+    margin: 30px 0;
+    padding: 15px 20px;
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.toolbar .toolbar-left {
+    text-align: left;
+    color: #aaa;
+    line-height: 30px;
+}
+
+.toolbar .toolbar-mode label {
+    font-weight: 400;
+    margin-right: 20px;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.toolbar a.grid.active {
+    color: #62d56d;
+}
+
+.toolbar .grid,
+.toolbar .list {
+
+    text-align: center;
+    padding: 0 15px 0 0;
+    font-size: 18px;
+    transition: all .5s ease 0s;
+    line-height: 20px;
+}
+
+.toolbar .toolbar-right {
+    text-align: right;
+}

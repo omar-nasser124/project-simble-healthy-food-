@@ -1,0 +1,22 @@
+.first {
+    background-image: url(../img/breadcrumb_image.webp);
+    
+    background-position: center;
+    padding: 30px 0; 
+    margin:20px 0 ; 
+    
+    }
+    .first .text{
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+        
+    }
+    
+    .text li a{
+        text-decoration: none;
+        color: #000;
+        
+        transition: all 0.5s;
+    }
+    .text .active{color:#62d56d ;}

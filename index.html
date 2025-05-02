@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodmarket - Responsive Shopify Theme Preview - ThemeForest</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Dancing+Script:wght@400..700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/vendor/all.min.css">
+
+</head>
+
+<body>
+
+    <!--------  nav bar  ------------>
+
+    <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/logo_330x.webp" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active"  href="index.html">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalog.html">catalog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="collections.html">collections</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">contact</a>
+                        </li>
+
+
+                    </ul>
+                    <div class="social">
+                        <a href="#">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </a>
+                
+                        <div class="dropup-center ">
+                        <a href="" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-gear"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="about.html">My Wishlist</a></li>
+                            <li><a class="dropdown-item" href="#">Checkout</a></li>
+                            <li><a class="dropdown-item" href="login.html">Sign In</a></li>
+                            <li><a class="dropdown-item" href="#">Create an account</a></li>
+                          </ul>
+                        </div>
+                        <a href="cart.html" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <i class="fa fa-shopping-cart"> </i>
+                        </a>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="mini_cart_header">
+                                        <ol class="cart-list">  
+                                          
+                                          <li class="item" id="cart-item-46063686154">
+                                            <a href="catalog.html" title="Avocado panzanella" class="product-image"><img src="img/p22_6f11937b-03c5-4d72-826c-ca44bb495f9e_large.webp" alt="Avocado panzanella"></a>
+                                            <div class="product-inner">
+              
+                                              <p class="product-name"><a href="catalog.html">Avocado panzanella</a></p>
+                                              <div class="option">
+                                                
+                                                
+                                                
+                                              </div>
+                                              <div class="cart-collateral">
+                                                <span class="qty-cart" data-translate="header.qty">Qty: 1 </span>
+                                                <span class="price"><span class="money" data-currency-usd="$210.00">$210.00</span></span>
+                                              </div>
+                                              
+                                            </div>
+                                          </li>
+                                          
+                                        </ol>
+                                        <div class="wrap-btcart">
+                                          <div class="summary">                
+                                            <p class="total">
+                                              <span class="label" style="color:#000" data-translate="header.total">Total:</span>
+                                              <span class="price"><span class="money" data-currency-usd="$210.00">$210.00</span></span> 
+                                            </p>
+                                          </div>
+                                          <div class="actions">
+                                            <div class="view-cart"><a class="btn" href="/cart" data-translate="header.viewcart">View Cart</a></div>
+                                            <button class="btn" onclick="window.location='/checkout'" data-translate="header.checkout">Checkout</button>
+                                          </div>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-------           1        ---------->
+
+    <section class="home">
+
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active " data-bs-interval="">
+                    <img src="img/slide-01_2048x.webp" class="d-block w-100" alt="image/webp ">
+                    <div class="page-text">
+
+                        <h1>Healthy party <span>2017</span></h1>
+                        <p>Sale up to <strong>30%</strong> all product </p>
+                        <a href="menu.html"> <button class="btu">View Full menu</button></a>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="">
+                    <img src="img/slide-02_2048x.webp" class="d-block w-100" alt="image/webp">
+                    <div class="page-text">
+
+                        <h1>Healthy party <span>2017</span></h1>
+                        <p>Sale up to <strong>30%</strong> all product </p>
+                        <a href="menu.html"> <button class="btu">View Full menu</button></a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+<div class="clr"></div>
+        </div>
+    </section>
+
+
+    <!--------------          2              -------->
+
+    <section class="icons">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="ourservice">
+                        <div class="ourservice-icon">
+                            <i class="fa fa-plane"></i>
+                        </div>
+                        <div class="ourservice-text">
+                            <h4>Free Shipping</h4>
+                            <p>on order over $200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="ourservice">
+                        <div class="ourservice-icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="ourservice-text">
+                            <h4>Free Shipping</h4>
+                            <p>on order over $200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="ourservice">
+                        <div class="ourservice-icon">
+                            <i class="fa-duotone fa-regular fa-life-ring"></i>
+                        </div>
+                        <div class="ourservice-text">
+                            <h4>Free Shipping</h4>
+                            <p>on order over $200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="ourservice">
+                        <div class="ourservice-icon">
+                            <i class="fa  fa-gift"></i>
+                        </div>
+                        <div class="ourservice-text">
+                            <h4>Free Shipping</h4>
+                            <p>on order over $200</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--------------          2              -------->
+
+    <section class="images">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3 col-lg-3 col-md-3">
+                    <div class="images-card">
+                        <a href="#">
+                            <img src="img/banner-01_2048x.webp" alt="image">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-6 col-md-6">
+                    <div class="images-card">
+                        <a href="#">
+                            <img src="img/banner-02_2048x.webp" alt="image">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-lg-3 col-md-3">
+                    <div class="images-card">
+                        <a href="#">
+                            <img src="img/banner-03_2048x.avif" alt="image">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--------------          2              -------->
+
+    <section class="tabs">
+        <div class="container">
+            <div class="row">
+                <div class="text">
+                    <h1>New Arrivals</h1>
+                </div>
+              
+
+                
+                    <ul class="nav justify-content-center" id="myTab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <a  class="nav-link active">
+                        <button class="btu" id="home-tab" data-bs-toggle="tab" data-bs-target="#foods" type="button" role="tab" aria-controls="foods" aria-selected="true">foods</button>
+                        </a>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a  class="nav-link ">
+                        <button class="btu" id="profile-tab" data-bs-toggle="tab" data-bs-target="#fruits" type="button" role="tab" aria-controls="fruits" aria-selected="false">fruits</button>
+                        </a>
+                    </li>
+                      <li class="nav-item" role="presentation">
+                        <a  class="nav-link ">
+                        <button class="btu" id="vegetables-tab" data-bs-toggle="tab" data-bs-target="#vegetables" type="button" role="tab" aria-controls="vegetables" aria-selected="false">vegetables</button>
+                        </a>
+                    </li>
+                    </ul>
+                
+                    
+                    <div class="tab-content justify-content-center" id="myTabContent">
+                      <div class="tab-pane fade show active " id="foods" role="tabpanel" aria-labelledby="foods-tab">
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="fruits" role="tabpanel" aria-labelledby="fruits-tab">
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane fade" id="vegetables" role="tabpanel" aria-labelledby="vegetables-tab">
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-6">
+                            <div class="card">
+                                <div class="overlay"></div>
+                                <div class="image">
+                                    <div class="product-label">-33</div>
+                                    <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                                </div>
+        
+                                <div class="icon">
+                                    <a href="#">
+                                        <i class="fa fa-heart"></i>
+                                    </a>
+                                </div>
+                                <div class="icon2">
+                                    <a href="">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+        
+        
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text"><del>$300.00 </del> $150.00</p>
+                                    
+                                    <a href="menu.html" > <button class="btu"> <span ><i class="fa fa-shopping-bag cart"></i></span> ADD to cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              
+            
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--------------          2              -------->
+
+    <section class="tabs tabs2">
+        <div class="container">
+            <div class="row">
+                <div class="text">
+                    <h1>Food Products</h1>
+                </div>
+                <div class=" col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <div class="image">
+                            <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                        </div>
+
+                        <div class="icon">
+                            <a href="#">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                        </div>
+                        <div class="icon2">
+                            <a href="">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </div>
+
+
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text"><del>$300.00</del> $150.00</p>
+                            <a href="menu.html"> <button class="btu">View Full menu</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <div class="image">
+                            <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                        </div>
+
+                        <div class="icon">
+                            <a href="#">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                        </div>
+                        <div class="icon2">
+                            <a href="">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text"><del>$300.00</del> $150.00</p>
+                            <a href="menu.html"> <button class="btu">View Full menu</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <div class="image">
+                            <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                        </div>
+
+                        <div class="icon">
+                            <a href="#">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                        </div>
+                        <div class="icon2">
+                            <a href="">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text"><del>$300.00</del> $150.00</p>
+                            <a href="menu.html"> <button class="btu">View Full menu</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-3 col-md-6">
+                    <div class="card">
+                        <div class="overlay"></div>
+                        <div class="image">
+                            <img src="img/p26_large.webp" class="card-img-top" alt="...">
+                        </div>
+
+                        <div class="icon">
+                            <a href="#">
+                                <i class="fa fa-heart"></i>
+                            </a>
+                        </div>
+                        <div class="icon2">
+                            <a href="">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text"><del>$300.00</del> $150.00</p>
+                            <a href="menu.html"> <button class="btu">View Full menu</button></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--------------          2              -------->
+
+
+
+
+    <div class="slider-background">
+        <div class="container">
+            <div class="text">
+                <h1>Testimonials</h1>
+            </div>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <!-- المؤشرات (Indicators) -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+    
+          <!-- العناصر (Slides) -->
+          <div class="carousel-inner">
+            <blockquote class="carousel-item active">
+                <div class="imagee">
+              <img src="img/avt_80x.webp" class="d-block" alt="Slide 1">
+                </div>
+              <cite><span>Sharapova</span></cite>
+             <p>“ It's easy to impress me. I don't need a fancy party to be happy. Just good friends, good food, and good <br>
+                laughs. I'm happy. I'm satisfied. I'm content.”</p>
+            </blockquote>
+          <blockquote class="carousel-item active">
+            <div class="imagee">
+            <img src="img/avt2_80x.webp" class="d-block " alt="Slide 1">
+        </div>
+            <cite><span>Sharapova</span></cite>
+            <p>“ It's easy to impress me. I don't need a fancy party to be happy. Just good friends, good food, and good <br>
+              laughs. I'm happy. I'm satisfied. I'm content.”</p>
+          </blockquote>
+        <blockquote class="carousel-item active">
+            <div class="imagee">
+          <img src="img/avt_80x.webp" class="d-block " alt="Slide 1">
+            </div>
+          <cite><span>Sharapova</span></cite>
+          <p>“ It's easy to impress me. I don't need a fancy party to be happy. Just good friends, good food, and good <br>
+            laughs. I'm happy. I'm satisfied. I'm content.”</p>
+        </blockquote>
+    </div>
+      
+    
+      </div>
+      </div>
+    </div>
+
+
+
+    <section class="top-menu">
+        <div class="container">
+            <div class="row">
+                <div class="tabs2">
+                    <div class="text">
+                        <h1>Top Menu</h1>
+                    </div>
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/11d36411235d97df19add77ececf099a.webp" alt="image/webp">
+                        </div>
+                        <div class="item-text">
+                            <h3><a href="">Healthy dinner party</a></h3>
+                            <h4>
+                                <span class="p">Potatoes, vegetable oil, yellow onion, garlic, <span
+                                        class="money">$200.00</span>
+                                    ground cumin, cayenne pepper, fresh.</span>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/Wings.webp" alt="image/webp">
+                        </div>
+                        <div class="item-text">
+                            <h3><a href="">Healthy dinner party</a></h3>
+                            <h4>
+                                <span class="p">Potatoes, vegetable oil, yellow onion, garlic, <span
+                                        class="money">$200.00</span>
+                                    ground cumin, cayenne pepper, fresh.</span>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/homepage-meatballs.webp" alt="image/webp">
+                        </div>
+                        <div class="item-text">
+                            <h3><a href="">Healthy dinner party</a></h3>
+                            <h4>
+                                <span class="p">Potatoes, vegetable oil, yellow onion, garlic, <span
+                                        class="money">$200.00</span>
+                                    ground cumin, cayenne pepper, fresh.</span>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/Maso_Chicken_Caesar_1473338326459.webp" alt="image/webp">
+                        </div>
+                        <div class="item-text">
+                            <h3><a href="">Healthy dinner party</a></h3>
+                            <h4>
+                                <span class="p">Potatoes, vegetable oil, yellow onion, garlic, <span
+                                        class="money">$200.00</span>
+                                    ground cumin, cayenne pepper, fresh.</span>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/77ef25f433a1fdbdfddf1074c9b7b799.webp" alt="image/webp">
+                        </div>
+                        <div class="item-text">
+                            <h3><a href="">Healthy dinner party</a></h3>
+                            <h4>
+                                <span class="p">Potatoes, vegetable oil, yellow onion, garlic, <span
+                                        class="money">$200.00</span>
+                                    ground cumin, cayenne pepper, fresh.</span>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <div class="item">
+                        <div class="image">
+                            <img src="img/77c09538c9b96d55f3c263b84a223e26.webp" alt="image/webp">
+                        </div>
+                        <div class="item-text">
+                            <h3><a href="">Healthy dinner party</a></h3>
+                            <h4>
+                                <span class="p">Potatoes, vegetable oil, yellow onion, garlic, <span
+                                        class="money">$200.00</span>
+                                    ground cumin, cayenne pepper, fresh.</span>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--------------          2              -------->
+
+
+    <footer class="end call">
+        <div class="container">
+            <div class="row">
+              
+                <div class="col-md-6 two">
+                    <div class="card one">
+                        <p>Happy with our Services - Call: 8000-123-4567</p>
+                    </div>
+                </div>
+                <div class="col-md-6 two">
+                    <div class="card two">
+                        <a href="menu.html"> <button class="btu">find A story</button></a>
+                    </div>
+                </div>
+
+</div>
+        </div>
+    </footer>
+
+
+
+    <footer class="end">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card cardfirst">
+                        <ul>
+                            <h1>contact details</h1>
+
+                            <li><span class="last-icoo"> <i class="fa-solid fa-map"> </i></span>Manchester St
+                                123-78B,
+                                Random
+                                713, UK
+                            </li>
+                            <li> <span class="last-icoo"><i class="fa fa fa-phone bg-color-accent"></i> </span>+46
+                                123 456
+                                789
+                            </li>
+                            <li> <span class="last-icoo"><i class="fa fa fa-headphones bg-color-accent"></i></span>+37
+                                431
+                                456
+                                789
+                            </li>
+                            <li><span class="last-icoo"><i class="fa-regular fa-envelope"></i> </span>
+                                hello@sitename.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card second">
+                        <h1>work out</h1>
+                        <ul>
+                            <li>Monday - Friday.............7:30 - 23:00</li>
+                            <li>Saturday..............................7:30 - 23:00</li>
+                            <li>Sunday..................................7:30 - 23:00 </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card third">
+                        <h1>Useful Links</h1>
+
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li></span><a href="menu.html">Menu</a></li>
+                            <li><a href="Gallary.html">Gallary</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="line"></div>
+
+                <div class="col-md-6 two">
+                    <div class="card one">
+                        <p>Copyright © 2017 / Site by Goalthemes</p>
+                    </div>
+                </div>
+                <div class="col-md-6 two">
+                    <div class="card two">
+                        <div class="social">
+                            <a href="http://www.facebook.com">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="http://www.twitter.com">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+                            <a href="http://www.instagram.com">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/style.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+
+   
+    .section-header {
+        text-align: center;
+    }
+
+    .section-header__right {
+        border: 1px solid #dbdbdb;
+        margin: 30px 0 50px;
+        padding: 15px 20px;
+        transition: all 0.5s ;
+    }
+    .section-header__right:hover {
+        color: #62d56d;
+    }
+    .section-header__right a{
+color: #000;
+text-decoration: none;
+    }
+
+
+    .collections .card  i{
+    
+        color: #62d56d;
+        
+        transition: all 0.5s;
+      }
+    .collections .card i:hover{
+        color: #ffffff;
+      }

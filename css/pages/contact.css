@@ -1,0 +1,51 @@
+
+
+.map {
+    padding: 40px 0;
+}
+
+.map .frame {
+    margin-bottom: 10px;
+}
+
+.col-md-6 {
+    float: left;
+}
+
+.map .contactFormWrapper input,
+textarea {
+    width: 100%;
+    margin: 10px 0;
+ 
+    border: 1px solid #ebebeb;
+    color: #b2b2b2;
+    padding: 15px 10px;
+}
+
+.map .item .btu {
+    position: relative;
+    background-color: #ffffff;
+    color: #62d56d;
+    border: 0;
+    border: 1px solid #62d56d;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 8px 15px;
+    margin-top: 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease, color 0.5s ease;
+    z-index: 2;
+    text-transform:uppercase; 
+}
+
+.map .item .btu:hover {
+    background-color: #62d56d;
+    color: #ffffff;
+    border: 2px solid #62d56d;
+
+}
+.item h2{
+    font-weight: 600;
+    font-size: 18px;
+}

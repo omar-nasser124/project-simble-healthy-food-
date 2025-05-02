@@ -1,0 +1,31 @@
+/******* base ******/
+@import url(base/base.css);
+
+/******* vendor ******/
+@import url(vendor/all.min.css);
+@import url(vendor/bootstrap.min.css);
+
+
+
+/******* layout ******/
+@import url(layout/header.css);
+@import url(layout/footer.css);
+@import url(layout/breadcrumb.css);
+
+
+/******* component ******/
+@import url(component/cataloge-page.css);
+
+/******* pages ******/
+@import url(pages/home.css);
+@import url(pages/about.css);
+@import url(pages/collections.css);
+@import url(pages/bestseller.css);
+@import url(pages/catalog.css);
+
+@import url(pages/contact.css);
+@import url(pages/cart.css);
+
+
+/******* base ******/
+
