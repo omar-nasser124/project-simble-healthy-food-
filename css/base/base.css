@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     line-height: 20px;
+    position: relative;
 
 }
 
@@ -35,3 +36,10 @@ a{
 .clr {
     clear: both;
 }
+
+.dropdown-menu.show {
+
+    left: -20px !important; 
+}
+
+

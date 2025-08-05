@@ -37,12 +37,28 @@ span{
  .end .col-lg-4 .card ul,
 li {
     list-style: none;  
+    padding: 5px 0;
 }
+ .end .col-lg-4 .card a:hover{
+   color: #62d56d;
+}
+
+
 .end .col-lg-4 .third a{
     text-decoration: none;
     color:#a1a1a1 ; 
     
 }   
+
+.end .third h1{
+   text-align: center;
+} 
+.end .third ul{
+   text-align: center;
+   
+} 
+
+
 .line{
     border-bottom: 1px solid #a1a1a16b;
     padding: 11px 0;
@@ -100,5 +116,9 @@ li {
  .end .col-md-6 .two .social a{
    padding:0 10px  ;
     
+ }
+
+ .card .social a:hover{
+   color: #62d56d;
  }
  

@@ -41,7 +41,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link"  href="index.html">home</a>
+                            <a class="nav-link" href="index.html">home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="about.html">about</a>
@@ -65,38 +65,82 @@
                         <a href="#">
                             <i class="fa-solid fa-magnifying-glass"></i>
                         </a>
-                
+
                         <div class="dropup-center ">
-                        <a href="" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-gear"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="about.html">My Wishlist</a></li>
-                            <li><a class="dropdown-item" href="#">Checkout</a></li>
-                            <li><a class="dropdown-item" href="#">Sign In</a></li>
-                            <li><a class="dropdown-item" href="#">Create an account</a></li>
-                          </ul>
+                            <a href="" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                <i class="fa-solid fa-gear"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="about.html">My Wishlist</a></li>
+                                <li><a class="dropdown-item" href="#">Checkout</a></li>
+                                <li><a class="dropdown-item" href="login.html">Sign In</a></li>
+                                <li><a class="dropdown-item" href="#">Create an account</a></li>
+                            </ul>
                         </div>
-                        <a href="cart.html" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             <i class="fa fa-shopping-cart"> </i>
                         </a>
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="false">
                             <div class="modal-dialog">
-                              <div class="modal-content">
-                                <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="mini_cart_header">
+                                            <ol class="cart-list">
+
+                                                <li class="item" id="cart-item-46063686154">
+                                                    <a href="catalog.html" title="Avocado panzanella"
+                                                        class="product-image"><img
+                                                            src="img/p22_6f11937b-03c5-4d72-826c-ca44bb495f9e_large.webp"
+                                                            alt="Avocado panzanella"></a>
+                                                    <div class="product-inner">
+
+                                                        <p class="product-name"><a href="catalog.html">Avocado
+                                                                panzanella</a></p>
+                                                        <div class="option">
+
+                                                        </div>
+                                                        <div class="cart-collateral">
+                                                            <span class="qty-cart" data-translate="header.qty">Qty: 1
+                                                            </span>
+                                                            <span class="price"><span class="money"
+                                                                    data-currency-usd="$210.00">$210.00</span></span>
+                                                        </div>
+                                                    </div>
+                                                </li>
+
+                                            </ol>
+                                            <div class="wrap-btcart">
+                                                <div class="summary">
+                                                    <p class="total">
+                                                        <span class="label" style="color:#000"
+                                                            data-translate="header.total">Total:</span>
+                                                        <span class="price"><span class="money"
+                                                                data-currency-usd="$210.00">$210.00</span></span>
+                                                    </p>
+                                                </div>
+                                                <div class="actions">
+                                                    <div class="view-cart"><a class="btn btn-primary" href="#"
+                                                            data-translate="header.viewcart">View Cart</a></div>
+                                                    <button class="btn" onclick="window.location='#'"
+                                                        data-translate="header.checkout">Checkout</button>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
                                 </div>
-                                <div class="modal-body">
-                                  ...
-                                </div>
-                                <div class="modal-footer">
-                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                  <button type="button" class="btn btn-primary">Save changes</button>
-                                </div>
-                              </div>
                             </div>
-                          </div>
+                        </div>
 
                     </div>
 
@@ -145,7 +189,7 @@
                                 <h2>Who we are ?</h2>
                             </div>
                             <div class="info-right">
-                                 <span>
+                                <span>
                                     <p>From the parks of Toronto to the Tuileries in Paris, we’ve got a penchant for
                                         capturing the best street style across the globe year-round. If you’ve got a
                                         thing for shimmering layers, Susie Bubble and spotting editrixes in their
@@ -160,29 +204,29 @@
                             </div>
                             <div class="info-right">
                                 <span>
-                                        <p>You’ve got a thing for shimmering layers, Susie Bubble and spotting editrixes
-                                            in their natural habitat, look no further than this, our constantly updated
-                                            street style page!</p>
-                                        <ul class="list-abouts">
-                                            <li>Ornare arcu lacus, quis aliquet odio bibendum non.</li>
-                                            <li>Nulla sagittis efficitur ex</li>
-                                            <li>Fusce ac ipsum gravida, tristique sed felis augue</li>
-                                            <li>Aarcu lacus, quis aliquet odio bibendum non.</li>
-                                        </ul>
-                                    </span>
-                                </div> 
+                                    <p>You’ve got a thing for shimmering layers, Susie Bubble and spotting editrixes
+                                        in their natural habitat, look no further than this, our constantly updated
+                                        street style page!</p>
+                                    <ul class="list-abouts">
+                                        <li>Ornare arcu lacus, quis aliquet odio bibendum non.</li>
+                                        <li>Nulla sagittis efficitur ex</li>
+                                        <li>Fusce ac ipsum gravida, tristique sed felis augue</li>
+                                        <li>Aarcu lacus, quis aliquet odio bibendum non.</li>
+                                    </ul>
+                                </span>
+                            </div>
                         </div>
 
                         <div class="info-item contact-items">
-                            <div class="info-left">  
-                                    <h2>Contact Us</h2>
+                            <div class="info-left">
+                                <h2>Contact Us</h2>
                             </div>
                             <div class="info-right">
-                                    <span>
-                                        <p>12 Fake Street,New York</p>
-                                        <p>(08) 8827 633354<br>08) 08 4752 1499</p>
-                                        <p>stores@company.com</p>
-                                    </span>
+                                <span>
+                                    <p>12 Fake Street,New York</p>
+                                    <p>(08) 8827 633354<br>08) 08 4752 1499</p>
+                                    <p>stores@company.com</p>
+                                </span>
                             </div>
                         </div>
 
@@ -304,3 +348,8 @@
             </div>
         </div>
     </footer>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/style.js"></script>
+</body>
+</html>
